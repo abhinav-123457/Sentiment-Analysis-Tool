@@ -11,29 +11,10 @@ This repository contains a sentiment analysis tool developed using Python and th
 - Collect and preprocess text data from the NLTK movie reviews corpus.
 - Develop a sentiment analysis model using the Naive Bayes classifier.
 - Analyze the sentiment of new text samples.
-
-## Installation
-
-1. Clone the repository:
-
-    ```sh
-    git clone https://github.com/abhinav-12357/Sentiment-Analysis-Tool.git
-    cd Sentiment-Analysis-Tool
-    ```
-
-2. Install the required Python libraries:
-
-    ```sh
-    pip install nltk scikit-learn pandas numpy
-    ```
     
 ## Usage
 
-1. Run the Python script to preprocess the data, train the model, and evaluate its performance:
-
-    ```python
-    python sentiment_analysis.py
-    ```
+1. Run the Python script in Google Colab:
 
 ## Example
 
