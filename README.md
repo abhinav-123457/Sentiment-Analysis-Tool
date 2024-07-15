@@ -31,20 +31,6 @@ This repository contains a sentiment analysis tool developed using Python and th
     python sentiment_analysis.py
     ```
 
-2. Use the `analyze_sentiment` function to analyze the sentiment of new text samples:
-
-    ```python
-    def analyze_sentiment(text):
-        words = preprocess(text.split())
-        cleaned_text = ' '.join(words)
-        features = vectorizer.transform([cleaned_text]).toarray()
-        prediction = model.predict(features)
-        return prediction[0]
-
-    sample_text = "The movie was fantastic and I loved it!"
-    print(f'Sentiment: {analyze_sentiment(sample_text)}')
-    ```
-
 ## Example
 
 Here's an example of how to use the sentiment analysis tool:
@@ -52,3 +38,7 @@ Here's an example of how to use the sentiment analysis tool:
 ```python
 sample_text = "The movie was fantastic and I loved it!"
 print(f'Sentiment: {analyze_sentiment(sample_text)}')
+```
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
