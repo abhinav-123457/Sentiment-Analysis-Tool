@@ -32,4 +32,4 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 
 For any inquiries or questions, please contact [abhinavshakya063@gmail.com].
 
-This README provides an overview of the project, installation instructions, usage examples, and the MIT license.
+This README provides an overview of the project, installation instructions, usage examples, and the [MIT license](license).
