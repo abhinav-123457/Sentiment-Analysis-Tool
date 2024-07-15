@@ -13,8 +13,8 @@ This repository contains a sentiment analysis tool developed using Python and th
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/sentiment-analysis-tool.git
-    cd sentiment-analysis-tool
+    git clone https://github.com/abhinav-12357/Sentiment-Analysis-Tool.git
+    cd Sentiment-Analysis-Tool
     ```
 
 2. Install the required Python libraries:
@@ -22,16 +22,7 @@ This repository contains a sentiment analysis tool developed using Python and th
     ```sh
     pip install nltk scikit-learn pandas numpy
     ```
-
-3. Download the necessary NLTK data:
-
-    ```python
-    import nltk
-    nltk.download('movie_reviews')
-    nltk.download('stopwords')
-    nltk.download('wordnet')
-    ```
-
+    
 ## Usage
 
 1. Run the Python script to preprocess the data, train the model, and evaluate its performance:
